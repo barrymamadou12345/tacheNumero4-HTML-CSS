@@ -1,0 +1,850 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: arial;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    width: 100%;
+    height: 6.5em;
+}
+header{
+    margin: 0 auto;
+    width: 60%;
+    height: 6.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.div1 a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.div1 a:visited{
+    color: #000;
+}
+
+.mini{
+    width: 99%;
+    height: 540px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-image: url("./image2.jpg");
+}
+
+.centre{
+    margin: auto;
+    width: 30%;
+    height: 450px;
+    margin-top: 80px;
+}
+
+.bakeli{
+    margin: auto;
+    margin-bottom: 45px;
+    height: 120px;
+    width: 60%;
+    justify-content: center;
+}
+.bakeli img{
+    height: 120px;
+    width: 100%;
+    border-radius: 14px;
+}
+
+.sous{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+    margin-bottom: 25px;
+}
+.sous .p1{
+    padding-top: 25px;
+    font-size: 19px;
+    color: #fff;
+}
+
+.sur{
+    width: 100%;
+    text-align: center;
+}
+.p2{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sect3{
+    width: 75%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seca, .secb, .secc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 410px;
+    border:  2px solid green;
+}
+
+h3{
+    font-size: 18px;
+}
+.bind p{
+    font-size: 13px;
+}
+
+.logo, .logo2, .logo3{
+    width: 25vh;
+    height: 25vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border:  2px solid rgb(21, 189, 138);
+    margin-bottom: 60px;
+    border-radius: 50%;
+}
+
+
+.momj{
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 228, 228);
+    margin-top: 50px;
+}
+
+.geri{
+    width: 75%;
+    height: 80px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.youq{
+    height: 40px;
+}
+
+.youq p{
+    font-family: arial;
+    font-size: 15px;
+}
+.hed h2{
+    font-family: arial;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.word{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.woss, .wos{
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+
+.wossi1, .wossi2, .wossi3, .wossi4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 250px;
+}
+
+.wossi1 img, .wossi2 img, .wossi3 img, .wossi4 img{
+    width: 80%;
+    height: auto;
+}
+
+.wos1 img, .wos2 img, .wos3 img, .wos4 img{
+    width: 80%;
+    height: auto;
+}
+
+.wos1, .wos2, .wos3, .wos4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 250px;
+    background-color: aqua;
+}
+
+
+.wossi1{
+    background-image: url("./card1.jpg");
+}
+.wossi2{
+    background-image: url("./card2.jpg");
+}
+.wossi3{
+    background-image: url("./card3.jpg");
+}
+.wossi4{
+    background-image: url("./card4.jpg");
+}
+
+
+
+.wos1{
+    background-image: url("./card5.jpg");
+}
+.wos2{
+    background-image: url("./card6.jpg");
+}
+.wos3{
+    background-image: url("./card7.jpg");
+}
+.wos4{
+    background-image: url("./card8.jpg");
+}
+
+.jomo{
+    height: 460px;
+    width: 100%;
+}
+
+.jomu1{
+    text-align: center;
+    height: 150px;
+    width: 60%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.pisss, .piss{
+    height: 70px;
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.jomu2{
+    height: 270px;
+    width: 99%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.koto, .kato{
+    height: 270px;
+    width: 35%;
+}
+
+.dada{
+    height: 100px;
+    width: 100%;
+}
+.pisss p{
+    font-family: arial;
+    font-weight: 400;
+    font-size: 14px;
+}
+.poucent{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 97%;
+    margin: auto;
+}
+.barr{
+    height: 60px;
+    width: 100%;
+}
+.avan{
+    width: 100%;
+    height: 13px;
+    border-radius: 7px;
+    background-color: #A5C0AD;
+}
+
+.paaa p{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: arial;
+}
+
+.avann{
+    width: 100%;
+    height: 13px;
+    border-radius: 7px;
+    background-color: #C4C4C4B2;
+}
+
+.avant{
+    width: 80%;
+    height: 13px;
+    border-radius: 7px;
+    background-color: #A5C0AD;
+}
+
+.av{
+    width: 90%;
+    height: 13px;
+    border-radius: 7px;
+    background-color: #A5C0AD;
+}
+.ava{
+    width: 70%;
+    height: 13px;
+    border-radius: 7px;
+    background-color: #A5C0AD;
+}
+.dado{
+    margin-top: 30px;
+}
+
+
+.sober{
+    background-color:#A5C0AD;
+    height: 625px;
+    width: 100%;
+}
+.sobe{
+    text-align: center;
+    height: 150px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.hedy p{
+    font-size: 30px;
+    font-family: arial;
+    color: #fff;
+}
+
+.hedy{
+    padding-top: 25px;
+}
+.piss p{
+    font-family: arial;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.morfo{
+    height: auto;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.morr{
+    width: 22%;
+    height: 320px;
+}
+.morr:hover{
+    width: 24%;
+    height: 333px;
+}
+.imoo{
+    width: 100%;
+    height: 77%;
+}
+
+.imoo img{
+    width: 100%;
+    height: 100%;
+}
+
+.inoo{
+    display: flex;
+    width: 100%;
+    height: 23%;
+    background-color: #fff;
+    align-items: center;
+}
+.inoo p{
+    padding-left: 27%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.877);
+}
+.inoo span{
+    font-weight: bold;
+}
+
+.gassi{
+    display: block;
+    padding-top:40px ;
+    width: 100%;
+    height: 350px;
+    background-color: #fcfafa;
+}
+
+.gassi1{
+    width: 70%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.gassi1 img{
+    width: 120px;
+    height: 63px;
+}
+
+.gassi2{
+    width: 72%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.yow{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.gassi3{
+    width: 52%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+.gassi3 p{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer{
+    padding-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-color: #C4C4C459;
+}
+.agent{
+    width: 70%;
+    height: 100%;
+    margin:0 auto;
+}
+
+.infos{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.divoo{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divoo1{
+    width: 20%;
+    height: auto;
+    line-height: 25px;
+}
+
+.soffy{
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.copy{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.icoon{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.icoon i{
+    font-size: 25px;
+    margin-left: 35px;
+}
+
+.icoon a:visited{
+    color:#000
+}
+
+
+/*---------------meedia queries-------------*/
+
+@media screen and (max-width:1150px) {
+    nav{
+        width: 100%;
+        height: 6.5em;
+    }
+    header{
+        width: 100%;
+    }
+    .div1 a{
+        font-size: 16px;
+    }
+    .centre{
+        margin: 0 auto;
+        width: 40%;
+        height: 400px;
+    }
+    
+    .bakeli{
+        margin-top: 80px;
+        height: 120px;
+        width: 65%;
+        justify-content: center;
+    }
+
+    .sous .p1{
+        font-size: 17px;
+    }
+
+    .sect3{
+        width: 70%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .seca, .secb, .secc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 410px;
+        border:  2px solid green;
+        margin-top: 25px;
+    }
+
+    .momj{
+        width: 100%;
+        height: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(230, 228, 228);
+    }
+    
+    .geri{
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .youq{
+        height: auto;
+    }
+    
+    .youq p{
+        font-family: arial;
+        font-size: 13px;
+    }
+    .hed h2{
+        font-family: arial;
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .jomu1{
+        text-align: center;
+        height: 150px;
+        width: 100%;
+        margin: auto;
+        margin-top: 120px;
+    }
+    
+    .pisss, .piss{
+        height: 70px;
+        width: 80%;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .morfo{
+        height: auto;
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+    .morr{
+        margin: auto;
+        width: 40%;
+        height: 300px;
+        margin-bottom: 40px;
+    }
+    .morr:hover{
+        width: 24%;
+        height: 333px;
+    }
+    .sober{
+        background-color:#A5C0AD;
+        height: auto;
+        width: 100%;
+    }
+    .sobe{
+        text-align: center;
+        height: 150px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+
+    
+    .footer{
+        padding-top: 50px;
+        width: 100%;
+        height: auto;
+        background-color: #C4C4C459;
+    }
+    .agent{
+        width: 100%;
+        height: 100%;
+        margin:0 auto;
+    }
+
+    .infos{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-bottom: 40px;
+        font-weight: bold;
+    }
+
+    .divoo{
+        margin: 0 auto;
+        width:95%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .divoo1{
+        width: 20%;
+        height: auto;
+        line-height: 25px;
+    }
+
+
+
+}
+
+/*---------------meedia queries-deux-------------*/
+
+@media screen and (max-width:650px) {
+    nav{
+        width: 100%;
+        height: 6.5em;
+    }
+    header{
+        width: 100%;
+    }
+    .div1 a{
+        font-size: 14px;
+    }
+    .centre{
+        margin: 0 auto;
+        width: 50%;
+        height: 400px;
+    }
+    
+    .bakeli{
+        height: 120px;
+        width: 75%;
+        justify-content: center;
+    }
+    .sous .p1{
+        font-size: 15px;
+    }
+    .sous .p2{
+        font-size: 11px;
+    }
+
+    .paaa p{
+        font-size: 13px;
+    }
+
+    .morfo{
+        height: auto;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .gassi{
+        font-size: 12px;
+    }
+    
+    .morr{
+        margin: auto;
+        width: 80%;
+        height: 320px;
+        margin-bottom: 40px;
+    }
+    .morr:hover{
+        width: 84%;
+        height: 333px;
+    }
+    .sober{
+        background-color:#A5C0AD;
+        height: auto;
+        width: 100%;
+    }
+    .sobe{
+        text-align: center;
+        height: 150px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .geri{
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .momj{
+        padding-top: 30px;
+    }
+    .youq{
+        height: 40px;
+    }
+    .youq p{
+        font-family: arial;
+        font-size: 16px;
+    }
+
+    nav{
+        width: 100%;
+        height: auto;
+    }
+    header{
+        margin: 0 auto;
+        width: 60%;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        opacity: 0.7;
+    }
+    
+    .div1 a{
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        height: 30px;
+        width: 100%;
+    }
+
+    .word{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .woss, .wos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    
+    .wossi1, .wossi2, .wossi3, .wossi4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        height: 250px;
+    }
+    
+    .wossi1 img, .wossi2 img, .wossi3 img, .wossi4 img{
+        width: 80%;
+        height: auto;
+    }
+    
+    .wos1 img, .wos2 img, .wos3 img, .wos4 img{
+        width: 80%;
+        height: auto;
+    }
+    
+    .wos1, .wos2, .wos3, .wos4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    .divoo{
+        width:95%;
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .divoo1{
+        width: 100%;
+        height: auto;
+        line-height:40px ;
+    }
+
+
+
+
+}
